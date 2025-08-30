@@ -1,5 +1,7 @@
 # Cloud & DevOps Engineer Learning Path 🌐☁️
 
+A structured learning path from computer fundamentals to advanced cloud operations and mini-projects. This roadmap is designed to take you from beginner to job-ready in the cloud/DevOps space.
+
 ---
 
 ## 🌐 Layer 0 – Computer & OS Fundamentals
@@ -116,7 +118,57 @@
 
 ---
 
-## ☁️ Layer 4 – Cloud Fundamentals
+## ☁️ Layer 4 – Python for Cloud Automation
+
+### Theory
+*   **Variables & data types** – used to store data
+*   **Operators (arithmetic, comparison, logical)** – used to perform calculations & comparisons
+*   **Conditionals (if, elif, else)** – used for decision making
+*   **Loops (for, while)** – used to repeat tasks
+*   **Functions** – used to write reusable code blocks
+*   **Lists, dictionaries, tuples, sets** – used to store collections of data
+*   **Modules & packages** – used to organize and reuse code
+*   **File handling (open, read, write)** – used to read/write files
+*   **JSON/YAML parsing** – used to handle config or cloud data
+*   **Exception handling (try, except)** – used to handle errors safely
+*   **HTTP requests (requests)** – used to interact with APIs
+*   **Cloud SDK concepts (AWS Boto3, Azure SDK, GCP client)** – used to manage cloud resources programmatically
+
+### Practical
+*   Automate tasks (file renaming, log parsing) – practice Python scripting
+*   Read/write JSON/YAML – used in cloud config automation
+*   Use requests library – make GET/POST requests to APIs
+*   **AWS Boto3:** list S3 buckets, create/delete bucket, start/stop EC2 – manage AWS resources
+*   **Azure SDK:** create VM, storage account – manage Azure resources
+*   **GCP SDK:** create VM, Cloud Storage bucket – manage GCP resources
+*   Deploy simple Lambda/Functions – serverless automation
+*   Combine Python with shell (os, subprocess) – integrate Linux + cloud automation
+
+---
+
+## 📚 Layer 5 – Git & Version Control
+
+### Theory
+*   **What is Git** – version control system for tracking code
+*   **Repositories** – local vs remote
+*   **Commits** – saving changes with messages
+*   **Branches** – managing different versions/features
+*   **Merge** – combining changes from branches
+*   **Pull Requests** – reviewing and merging code collaboratively
+*   **Remote Repositories** – GitHub, GitLab, Bitbucket
+
+### Practical
+*   `git init` – initialize a new repo
+*   `git clone <url>` – copy remote repo locally
+*   `git add`, `git commit -m` – add and commit changes
+*   `git push`, `git pull` – sync with remote repo
+*   `git branch`, `git checkout`, `git merge` – branch management
+*   Resolve merge conflicts – practice collaborative coding
+*   `git log`, `git status` – view history and track changes
+
+---
+
+## ☁️ Layer 6 – Cloud Fundamentals
 
 ### Theory
 *   **Cloud Computing:** What it is, traditional IT vs cloud.
@@ -136,7 +188,45 @@
 
 ---
 
-## ☁️ Layer 5 – Modern App Architecture & Containers
+## 🗄️ Layer 7 – Database Basics for Cloud
+
+### Theory
+*   **SQL vs NoSQL** – types of databases used in cloud
+*   **Tables, rows, columns** – basic relational database structure
+*   **CRUD operations (Create, Read, Update, Delete)** – basic database actions
+*   **Primary & foreign keys** – for data integrity
+*   **Indexes** – for faster queries
+*   **Simple queries:** SELECT, INSERT, UPDATE, DELETE – database interaction
+*   **Cloud databases:** RDS, DynamoDB, Firestore – examples in cloud
+*   **Connection concepts** – how cloud apps connect to databases
+
+### Practical
+*   Launch RDS instance or DynamoDB table – create cloud database
+*   Insert/read/update/delete records – basic CRUD operations
+*   Query data with SQL commands – practice SELECT, INSERT, UPDATE, DELETE
+*   Connect cloud instance to database – test application connectivity
+*   Backup & restore database – practice snapshots
+
+---
+
+## 💻 Layer 8 – Cloud CLI Awareness
+
+### Theory
+*   **What is CLI** – command-line interface for cloud management
+*   **Differences between CLI and Console** – advantages of CLI
+*   **Authentication & credentials** – using keys or tokens
+*   **Cloud resource concepts** – instances, storage, networking via CLI
+
+### Practical
+*   **AWS CLI:** `aws s3 ls`, `aws ec2 start-instances` – list/manage AWS resources
+*   **Azure CLI:** `az vm create`, `az storage account` – create/manage Azure resources
+*   **GCP CLI:** `gcloud compute instances create`, `gsutil` – create/manage GCP resources
+*   Script simple tasks – combine CLI commands for automation
+*   Test resource querying – check status of instances, storage, networking
+
+---
+
+## ☁️ Layer 9 – Modern App Architecture & Containers
 
 ### Theory
 *   **Architecture:** Monolithic vs Microservices, SOA.
@@ -151,7 +241,7 @@
 
 ---
 
-## 🔐 Layer 6 – Cloud Security
+## 🔐 Layer 10 – Cloud Security
 
 ### Theory
 *   **IAM:** Shared responsibility model, IAM, MFA, RBAC, least privilege.
@@ -167,7 +257,7 @@
 
 ---
 
-## 📊 Layer 7 – Cloud Operations & Monitoring
+## 📊 Layer 11 – Cloud Operations & Monitoring
 
 ### Theory
 *   **Reliability:** High Availability, fault tolerance, disaster recovery.
@@ -184,7 +274,7 @@
 
 ---
 
-## 🎯 Layer 8 – Mini Projects (Combine Everything)
+## 🎯 Layer 12 – Mini Projects (Combine Everything)
 
 ### Practical Projects
 1.  **Web Server on Cloud VM:** Deploy a website on EC2/Nginx or Azure VM/IIS.
